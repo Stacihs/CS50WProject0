@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Search</title>
-    </head>
-    <body>
-        <nav>
-            <a href="imageSearch.html">Image Search</a>
-            <a href="advSearch.html">Advanced Search</a>
-        </nav>
-        <header>
-            <h1>Google</h1>
-        </header>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" name="btnK" value="Google Search">
-            <input type="submit" name="btnI" value="I'm Feeling Lucky">
-        </form>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+  </head>
+  <body>
+    <nav>
+      <a href="imageSearch.html">Image Search</a>
+      <a href="advSearch.html">Advanced Search</a>
+    </nav>
+    <header>
+      <h1>Google</h1>
+    </header>
+    <form action="https://google.com/search" method="GET" name="f">
+        <div>
+            <input name="sxsrf" value="ALeKk00Rwi77v-IiyrdwT9Kq5OvnpDfqVQ:1602275781426" type="hidden">            
+            <input name="source" type="hidden" value="hp">
+            <input value="xcmAX7qTF42gtQWev4y4AQ" name="ei" type="hidden">
+            <input value="AINFCbYAAAAAX4DX1c89SgXTuHAH6vrTf6GDWEgDFE1J" disabled="true" name="iflsig" type="hidden">
+        </div>
+        <div>
+            <input type="text" name="q" />
+            <input type="submit" name="btnK" value="Google Search" data-ved="0ahUKEwitoZuDz6jsAhURd6wKHeW8AmwQ4dUDCA0" />
+            <input type="submit" name="btnI" value="I'm Feeling Lucky" data-ved="0ahUKEwj6iaC2rqjsAhUNUK0KHZ4fAxcQ19QECAo" />
+        </div>
+    </form>
+  </body>
 </html>
