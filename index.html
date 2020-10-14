@@ -7,41 +7,51 @@
   </head>
   <body>
     <nav>
-      <a href="imageSearch.html">Image Search</a>
-      <a href="advSearch.html">Advanced Search</a>
+      <ul>
+        <li><a href="imageSearch.html">Image Search</a></li>
+        <li><a href="advSearch.html">Advanced Search</a></li>
+      </ul>
     </nav>
-    <header>
-      <h1>Google</h1>
-    </header>
-    <form
-      action="https://google.com/search"
-      data-submitfalse="q"
-      method="GET"
-      name="f"
-      role="search"
-    >
-      <div id="search_box">
-        <input type="hidden" name="sxsrf" />
-        <input type="hidden" name="source" />
-        <input type="hidden" name="ei" />
-        <input
-          name="iflsig"
-          type="hidden"
-          value="AINFCbYAAAAAX4JCMEtVLVb3leCc2AVeY7GH18y9Kt3W"
-        />
-        <input type="hidden" name="gs_ssp" />
-        <input type="hidden" name="oq" />
-        <input type="hidden" name="gs_lcp" />
-        <input type="hidden" name="sclient" />
-        <input type="hidden" name="ved" />
-      </div>
-      <div>
-        <input type="text" name="q" />
-      </div>
-      <div class="buttons">
-        <input type="submit" name="btnK" value="Google Search />
-        <input type="submit" name="btnI" value="I'm Feeling Lucky" />
-      </div>
-    </form>
+    <main>
+      <header>
+        <h1>Google</h1>
+      </header>
+      <form
+        action="https://google.com/search"
+        data-submitfalse="q"
+        method="GET"
+        name="f"
+        role="search"
+      >
+        <div id="search_box_p">
+          <input type="hidden" name="sxsrf" />
+          <input type="hidden" name="source" />
+          <input type="hidden" name="ei" />
+          <input name="iflsig" type="hidden" />
+          <input type="hidden" name="gs_ssp" />
+          <input type="hidden" name="oq" />
+          <input type="hidden" name="gs_lcp" />
+          <input type="hidden" name="sclient" />
+          <input type="hidden" name="ved" />
+        </div>
+        <div class="search_box">
+          <input type="text" name="q" />
+        </div>
+        <div class="search_buttons">
+          <input
+            class="buttons"
+            type="submit"
+            name="btnK"
+            value="Google Search"
+          />
+          <input
+            class="buttons"
+            type="submit"
+            name="btnI"
+            value="I'm Feeling Lucky"
+          />
+        </div>
+      </form>
+    </main>
   </body>
 </html>
