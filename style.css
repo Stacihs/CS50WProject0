@@ -51,6 +51,15 @@ img {
   height: 5rem;
 }
 
+h5 {
+  display: flex;
+  justify-content: flex-end;
+  color: cornflowerblue;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 0rem;
+}
+
 form {
   width: 75%;
 }
