@@ -21,6 +21,7 @@ ul {
   flex-direction: row;
   float: right;
   margin: 0;
+  padding-right: 2rem;
 }
 
 li {
@@ -35,7 +36,7 @@ a {
 }
 
 main {
-  height: 87%;
+  height: 89%;
 }
 
 main,
@@ -85,15 +86,15 @@ form {
 }
 
 footer {
-  height: 7%;
+  height: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
   border-top: solid 1px rgb(212, 208, 208);
   background-color: rgba(188, 189, 192, 0.171);
-  padding-left: 1rem;
 }
 
 footer p {
   color: rgb(61, 63, 63);
+  padding-left: 2rem;
 }
