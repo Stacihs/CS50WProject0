@@ -1,35 +1,69 @@
-html, body {
+* {
+  margin: 0;
+  font-family: arial, sans-serif;
+  /* border: solid red 1px; */
+}
 
+html,
+body {
+  height: 100%;
 }
 
 nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem;
+  background-color: rgba(188, 189, 192, 0.171);
 }
 
 #adv_logo {
-    height: 2rem;
+  height: 2rem;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.75rem;
 }
 
 main {
-
 }
 
 header {
+  width: 100%;
+  padding: 1.25rem;
+  padding-left: 0;
+  border-bottom: solid 1px rgba(188, 189, 192, 0.171);
+}
 
+h1 {
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: red;
+  margin-left: 3rem;
 }
 
 p {
-
+  margin-left: 3rem;
+  margin-top: 3rem;
+  font-size: 1rem;
 }
 
 form {
-
+  margin-left: 3rem;
+  line-height: 3rem;
 }
 
 .form-search {
-
+  font-size: 0.75rem;
 }
 
 input {
+}
 
+#advbutton {
+    color: white;
+    background-color: rgb(103, 133, 223);
 }
