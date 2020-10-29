@@ -61,19 +61,26 @@ form {
   width: 90%;
 }
 
+.search_box input:focus {
+  outline: none;
+}
+
 .search_box input {
   border: solid 1px rgb(204, 196, 196);
   border-radius: 30px;
   margin: 1rem;
+  padding-left: 1rem;
   width: 60%;
   height: 2.5rem;
+  font-size: 1rem;
+  color: rgb(41, 39, 39);
 }
 
 .search_buttons input {
   color: rgb(61, 63, 63);
   background-color: rgba(188, 189, 192, 0.171);
   border: 0;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-family: arial, sans-serif;
 }
 
@@ -82,12 +89,11 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-top: solid 1px rgb(204, 196, 196);
+  border-top: solid 1px rgb(212, 208, 208);
   background-color: rgba(188, 189, 192, 0.171);
   padding-left: 1rem;
 }
 
 footer p {
-    color: rgb(61, 63, 63);
+  color: rgb(61, 63, 63);
 }
-
