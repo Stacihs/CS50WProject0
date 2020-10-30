@@ -64,6 +64,10 @@ input {
 }
 
 #advbutton {
+    padding: .5rem 1rem;
     color: white;
-    background-color: rgb(103, 133, 223);
+    background-color: rgb(68, 131, 248);
+    font-size: .70rem;
+    border: none;
+    border-radius: .10rem;
 }
