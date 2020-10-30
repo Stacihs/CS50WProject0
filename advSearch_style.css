@@ -18,7 +18,7 @@ nav {
 }
 
 #adv_logo {
-  height: 2rem;
+  height: 1.80rem;
 }
 
 a {
@@ -33,7 +33,7 @@ main {
 
 header {
   width: 100%;
-  padding: 1.25rem;
+  padding: 1.75rem;
   padding-left: 0;
   border-bottom: solid 1px rgba(188, 189, 192, 0.171);
 }
@@ -61,6 +61,14 @@ form {
 }
 
 input {
+    border: solid 1px rgba(107, 108, 110, 0.171);
+    border-top: 1px solid rgb(207, 206, 206);
+    height: 1.5rem;
+    padding-left: .5rem;
+}
+
+form input:focus {
+    outline:  rgb(68, 131, 248);
 }
 
 #advbutton {
@@ -69,5 +77,5 @@ input {
     background-color: rgb(68, 131, 248);
     font-size: .70rem;
     border: none;
-    border-radius: .10rem;
+    border-radius: 2px;
 }
