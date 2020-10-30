@@ -18,7 +18,7 @@ nav {
 }
 
 #adv_logo {
-  height: 1.80rem;
+  height: 1.8rem;
 }
 
 a {
@@ -29,6 +29,7 @@ a {
 }
 
 main {
+  height: 90%;
 }
 
 header {
@@ -52,6 +53,7 @@ p {
 }
 
 form {
+  height: 60%;
   margin-left: 3rem;
   line-height: 3rem;
 }
@@ -61,21 +63,19 @@ form {
 }
 
 input {
-    border: solid 1px rgba(107, 108, 110, 0.171);
-    border-top: 1px solid rgb(207, 206, 206);
-    height: 1.5rem;
-    padding-left: .5rem;
-}
-
-form input:focus {
-    outline:  rgb(68, 131, 248);
+  border: solid 1px rgba(107, 108, 110, 0.171);
+  border-top: 1px solid rgb(207, 206, 206);
+  height: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 #advbutton {
-    padding: .5rem 1rem;
-    color: white;
-    background-color: rgb(68, 131, 248);
-    font-size: .70rem;
-    border: none;
-    border-radius: 2px;
+  height: 2rem;
+  width: 7rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(68, 131, 248);
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 2px;
 }
