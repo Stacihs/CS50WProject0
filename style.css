@@ -87,10 +87,16 @@ form {
   color: rgb(41, 39, 39);
 }
 
+.search_buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .search_buttons input {
   color: rgb(61, 63, 63);
   background-color: rgba(188, 189, 192, 0.171);
-  border: 0;
   padding: 0.5rem 1rem;
   font-family: arial, sans-serif;
 }
