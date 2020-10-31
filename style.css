@@ -76,7 +76,7 @@ form {
 }
 
 .search_box input {
-  border: solid 1px rgb(204, 196, 196);
+  border: solid 1px rgb(228, 221, 221);
   border-radius: 30px;
   margin: 1rem;
   padding-left: 1rem;
@@ -92,6 +92,11 @@ form {
   border: 0;
   padding: 0.5rem 1rem;
   font-family: arial, sans-serif;
+}
+
+.search_buttons input:hover {
+  border: solid 1px rgb(228, 221, 221);
+  border-radius: 4px;
 }
 
 footer {
