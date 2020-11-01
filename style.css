@@ -71,8 +71,8 @@ form {
   width: 90%;
 }
 
-.search_box input:focus {
-  outline: none;
+.search_box input:hover {
+  box-shadow: 1px 1px 3px 1px rgb(228, 221, 221);
 }
 
 .search_box input {
