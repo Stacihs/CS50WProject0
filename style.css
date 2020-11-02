@@ -122,4 +122,9 @@ footer {
 footer p {
   color: rgb(61, 63, 63);
   padding-left: 2rem;
+  font-size: .90rem;
+}
+
+footer p > a {
+  font-size: .90rem;
 }

@@ -23,13 +23,12 @@ nav {
 }
 
 a {
-  display: flex;
-  align-items: center;
   text-decoration: none;
-  font-size: rem;
+  font-size: 1rem;
 }
 
 main {
+  height: 83.5%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -68,7 +67,7 @@ form {
   margin: 0.75rem;
   margin-left: 0;
   margin-right: 0.25rem;
-  font-size: 0.80rem;
+  font-size: 0.8rem;
 }
 
 .text-input {
@@ -79,7 +78,7 @@ form {
   margin-right: 5%;
   padding-left: 0.5rem;
   float: right;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .text-input:focus {
@@ -95,11 +94,11 @@ form {
 }
 
 #advbutton {
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   float: right;
   color: white;
   background-color: rgb(68, 131, 248);
-  font-size: .75rem;
+  font-size: 0.75rem;
   border: none;
   border-radius: 2px;
 }
@@ -110,8 +109,31 @@ form {
 
 #advbutton:focus {
   outline: 0;
-  padding: .4rem .6rem;  
+  padding: 0.4rem 0.6rem;
   border-style: double;
+}
+
+footer {
+  height: 6%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: solid 1px rgb(212, 208, 208);
+  background-color: rgba(188, 189, 192, 0.171);
+}
+
+#imagecredit {
+  width: 100%;
+  margin: 0;
+  padding-left: 2rem;
+  display: flex;
+  align-content: center;
+  font-size: .90rem;
+  color: rgb(61, 63, 63);
+}
+
+#imagecredit a {
+    font-size: .90rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -124,14 +146,14 @@ form {
   }
 }
 
-/* @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .text-input {
     width: 45%;
   }
-} */
+}
 
 @media screen and (max-width: 375px) {
   .text-input {
-    width: 40%;
+    width: 90%;
   }
 }
