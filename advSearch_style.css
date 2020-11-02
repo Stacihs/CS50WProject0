@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  height: 3%;
+  height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,14 +19,14 @@ nav {
 }
 
 #adv_logo {
-  height: 1.5rem;
+  height: 1.85rem;
 }
 
 a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 0.75rem;
+  font-size: rem;
 }
 
 main {
@@ -37,13 +37,13 @@ main {
 }
 
 header {
-  padding: 1.25rem;
+  padding: 1.5rem;
   padding-left: 0;
   border-bottom: solid 1px rgba(188, 189, 192, 0.171);
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 100;
   color: red;
   margin-left: 3rem;
@@ -52,13 +52,14 @@ h1 {
 p {
   margin-left: 3rem;
   margin-top: 3rem;
-  font-size: .85rem;
+  font-size: 1rem;
 }
 
 form {
   justify-content: space-around;
   height: 60%;
   margin-left: 3rem;
+  margin-right: 1rem;
   line-height: 1.5rem;
 }
 
@@ -67,7 +68,7 @@ form {
   margin: 0.75rem;
   margin-left: 0;
   margin-right: 0.25rem;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .text-input {
@@ -78,35 +79,39 @@ form {
   margin-right: 5%;
   padding-left: 0.5rem;
   float: right;
-  font-size: 0.65rem;
+  font-size: .75rem;
 }
 
-.text-input:focus{
-    outline: 0;
-    border: solid 1px  rgb(68, 131, 248);
+.text-input:focus {
+  outline: 0;
+  border: solid 1px rgb(68, 131, 248);
+}
+
+#searchbutton {
+  width: 65%;
+  margin-right: 5%;
+  padding-left: 0.5rem;
+  float: right;
 }
 
 #advbutton {
-  height: 1.5rem;
-  width: 6rem;
-  padding: .5rem .6rem;
-  text-align: center;
+  padding: .5rem .75rem;
+  float: right;
   color: white;
   background-color: rgb(68, 131, 248);
-  font-size: 0.55rem;
+  font-size: .75rem;
   border: none;
   border-radius: 2px;
 }
 
 #advbutton:hover {
-    background-color: rgb(51, 119, 245);
+  background-color: rgb(51, 119, 245);
 }
 
 #advbutton:focus {
-    outline: 0;
-    padding: .3rem;
-    border-style: double;
-    /* text-align: center; */
+  outline: 0;
+  padding: .4rem .6rem;  
+  border-style: double;
 }
 
 @media screen and (max-width: 723px) {
@@ -115,18 +120,18 @@ form {
   }
 
   .text-input {
-      width: 55%;
+    width: 55%;
   }
 }
 
 @media screen and (max-width: 398px) {
-    .text-input {
-        width: 45%;
-    }
+  .text-input {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .text-input {
-        width: 40%;
-    }
+  .text-input {
+    width: 40%;
+  }
 }
