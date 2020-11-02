@@ -81,15 +81,32 @@ form {
   font-size: 0.65rem;
 }
 
+.text-input:focus{
+    outline: 0;
+    border: solid 1px  rgb(68, 131, 248);
+}
+
 #advbutton {
-  height: 2rem;
-  width: 7rem;
+  height: 1.5rem;
+  width: 6rem;
+  padding: .5rem .6rem;
   text-align: center;
   color: white;
   background-color: rgb(68, 131, 248);
-  font-size: 0.6rem;
+  font-size: 0.55rem;
   border: none;
   border-radius: 2px;
+}
+
+#advbutton:hover {
+    background-color: rgb(51, 119, 245);
+}
+
+#advbutton:focus {
+    outline: 0;
+    padding: .3rem;
+    border-style: double;
+    /* text-align: center; */
 }
 
 @media screen and (max-width: 723px) {
