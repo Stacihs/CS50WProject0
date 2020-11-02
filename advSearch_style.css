@@ -68,7 +68,7 @@ form {
   margin: 0.75rem;
   margin-left: 0;
   margin-right: 0.25rem;
-  font-size: 0.75rem;
+  font-size: 0.80rem;
 }
 
 .text-input {
@@ -114,7 +114,7 @@ form {
   border-style: double;
 }
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 768px) {
   .form-search {
     width: 95%;
   }
@@ -124,13 +124,13 @@ form {
   }
 }
 
-@media screen and (max-width: 398px) {
+/* @media screen and (max-width: 425px) {
   .text-input {
     width: 45%;
   }
-}
+} */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .text-input {
     width: 40%;
   }
