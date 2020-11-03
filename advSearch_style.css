@@ -76,6 +76,7 @@ form {
   height: 1.25rem;
   width: 65%;
   margin-right: 5%;
+  margin-bottom: .5rem;
   padding-left: 0.5rem;
   float: right;
   font-size: 0.75rem;
@@ -86,21 +87,17 @@ form {
   border: solid 1px rgb(68, 131, 248);
 }
 
-#searchbutton {
-  width: 65%;
-  margin-right: 5%;
-  padding-left: 0.5rem;
-  float: right;
-}
-
 #advbutton {
-  padding: 0.5rem 0.75rem;
-  float: right;
   color: white;
   background-color: rgb(68, 131, 248);
   font-size: 0.75rem;
   border: none;
   border-radius: 2px;
+  height: 1.75rem;
+  margin-right: 5%;
+  padding: 0.5rem 0.75rem;
+  float: right;
+  font-size: 0.75rem;
 }
 
 #advbutton:hover {
@@ -124,18 +121,18 @@ footer {
 
 #imagecredit {
   width: 100%;
-  margin: 0;
+  margin-top: 0;
   padding-left: 2rem;
   display: flex;
   align-content: center;
-  font-size: .90rem;
+  font-size: 0.9rem;
   color: rgb(61, 63, 63);
 }
 
 #imagecredit a {
-    font-size: .90rem;
-    padding-left: .25rem;
-    padding-right: .25rem;
+  font-size: 0.9rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 @media screen and (max-width: 768px) {
