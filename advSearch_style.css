@@ -134,6 +134,8 @@ footer {
 
 #imagecredit a {
     font-size: .90rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
 }
 
 @media screen and (max-width: 768px) {
