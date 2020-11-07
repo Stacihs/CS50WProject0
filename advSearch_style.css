@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  border: 0;
   font-family: arial, sans-serif;
 }
 
@@ -28,7 +29,7 @@ a {
 }
 
 main {
-  height: 85%;
+  height: 84%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -56,7 +57,7 @@ p {
 
 form {
   justify-content: space-around;
-  height: 60%;
+  /* height: 60%; */
   margin-left: 3em;
   margin-right: 1em;
   line-height: 1.5em;
@@ -110,7 +111,7 @@ form {
 }
 
 footer {
-  height: 6%;
+  height: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
