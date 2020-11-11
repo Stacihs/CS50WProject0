@@ -7,68 +7,70 @@
     <title>Advanced Search</title>
   </head>
   <body>
-    <nav>
-      <img id="adv_logo" src="google-1015751.svg" alt="" />
-      <a href="index.html">Google Search</a>
-    </nav>
-    <main>
-      <header>
-        <h1>Google Advanced Search</h1>
-      </header>
-      <p>Find pages with...</p>
-      <form action="https://google.com/search">
-        <div class="form-search">
-          <div class="title">
-            <label for="all">all these words: </label>
+    <div id="advpage">
+      <nav>
+        <img id="adv_logo" src="google-1015751.svg" alt="" />
+        <a href="index.html">Google Search</a>
+      </nav>
+      <main>
+        <header>
+          <h1>Google Advanced Search</h1>
+        </header>
+        <p>Find pages with...</p>
+        <form action="https://google.com/search">
+          <div class="form-search">
+            <div class="title">
+              <label for="all">all these words: </label>
+            </div>
+            <div class="userinput">
+              <input class="text-input" type="text" name="as_q" id="all" />
+            </div>
           </div>
-          <div class="userinput">
-            <input class="text-input" type="text" name="as_q" id="all" />
+          <div class="form-search">
+            <div class="title">
+              <label for="exact">this exact word or phrase: </label>
+            </div>
+            <div class="userinput">
+              <input class="text-input" type="text" name="as_epq" id="exact" />
+            </div>
           </div>
-        </div>
-        <div class="form-search">
-          <div class="title">
-            <label for="exact">this exact word or phrase: </label>
+          <div class="form-search">
+            <div class="title">
+              <label for="any">any of these words: </label>
+            </div>
+            <div class="userinput">
+              <input class="text-input" type="text" name="as_oq" id="any" />
+            </div>
           </div>
-          <div class="userinput">
-            <input class="text-input" type="text" name="as_epq" id="exact" />
+          <div class="form-search">
+            <div class="title">
+              <label for="none">none of these words: </label>
+            </div>
+            <div class="userinput">
+              <input class="text-input" type="text" name="as_eq" id="none" />
+            </div>
           </div>
-        </div>
-        <div class="form-search">
-          <div class="title">
-            <label for="any">any of these words: </label>
+          <div class="form-search">
+            <div>
+              <input id="advbutton" type="submit" value="Advanced Search" />
+            </div>
           </div>
-          <div class="userinput">
-            <input class="text-input" type="text" name="as_oq" id="any" />
-          </div>
-        </div>
-        <div class="form-search">
-          <div class="title">
-            <label for="none">none of these words: </label>
-          </div>
-          <div class="userinput">
-            <input class="text-input" type="text" name="as_eq" id="none" />
-          </div>
-        </div>
-        <div class="form-search">
-          <div>
-            <input id="advbutton" type="submit" value="Advanced Search" />
-          </div>
-        </div>
-      </form>
-    </main>
-    <footer>
-      <p id="imagecredit">
-        Image by
-        <a
-          href="https://pixabay.com/users/wikimediaimages-1185597/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015751"
-          >WikimediaImages</a
-        >
-        from
-        <a
-          href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015751"
-          >Pixabay</a
-        >
-      </p>
-    </footer>
+        </form>
+      </main>
+      <footer>
+        <p id="imagecredit">
+          Image by
+          <a
+            href="https://pixabay.com/users/wikimediaimages-1185597/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015751"
+            >WikimediaImages</a
+          >
+          from
+          <a
+            href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1015751"
+            >Pixabay</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
