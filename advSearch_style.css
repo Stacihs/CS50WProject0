@@ -5,7 +5,8 @@
 }
 
 html,
-body {
+body,
+#advpage {
   height: 100%;
   width: 100%;
 }
@@ -57,7 +58,7 @@ p {
 
 form {
   justify-content: space-around;
-  /* height: 60%; */
+  height: 60%;
   margin-left: 3em;
   margin-right: 1em;
   line-height: 1.5em;
@@ -143,7 +144,6 @@ footer {
   font-size: 0.9em;
   padding-left: 0.25em;
   padding-right: 0.25em;
-  float: left;
 }
 
 @media screen and (max-width: 768px) {
