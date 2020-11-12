@@ -4,15 +4,13 @@
   font-family: arial, sans-serif;
 }
 
-html,
-body,
 #advpage {
-  height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 nav {
-  height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +28,7 @@ a {
 }
 
 main {
-  height: 84%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -58,7 +56,6 @@ p {
 
 form {
   justify-content: space-around;
-  height: 60%;
   margin-left: 3em;
   margin-right: 1em;
   line-height: 1.5em;
@@ -123,7 +120,6 @@ form {
 }
 
 footer {
-  height: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
